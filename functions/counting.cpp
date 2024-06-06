@@ -2,6 +2,7 @@
 using namespace std;
 void count(int n)
 {
+    //function body
     for(int i=1;i<=n;i++)
     {
         cout<< i <<" ";
@@ -12,6 +13,8 @@ void count(int n)
    {
     int n;
     cin>>n;
+
+    //function call
     count(n);
     return 0;
    }
