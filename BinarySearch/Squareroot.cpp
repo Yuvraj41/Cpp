@@ -10,7 +10,7 @@ long long int sqrtinteger(int n)
     long long int ans = -1;
     while(s<=e)
     {
-        long long int square = mid * mid;
+        long long int  square = mid * mid;
 
         if(square==n)
         {
